@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
+import DataFetchById from './component/DataFetchById';
 // import ClassEffect from './component/ClassEffect';
 // import EffectHook from './component/EffectHook';
-import MouseEventEffect from './component/MouseEventEffect';
+// import MouseEventEffect from './component/MouseEventEffect';
+// import DataFetch from './component/DataFetch';
 
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
     <div className="App">
       {/* <ClassEffect /> */}
       {/* <EffectHook /> */}
-      <MouseEventEffect />
+      {/* <MouseEventEffect /> */}
+      {/* <DataFetch /> */}
+      <DataFetchById />
     </div>
   );
 }
